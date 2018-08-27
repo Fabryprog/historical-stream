@@ -25,10 +25,10 @@ Using MQTT to retrieve historical data (without db)
 }
 ```
 
-connection.url = Mqtt broker connection url
-topic.listen = List of topic to support historical stream data
-topic.suffix = Topic to send historical stream data
-max = Max items on memory (every topic)
+* connection.url = Mqtt broker connection url
+* topic.listen = List of topic to support historical stream data
+* topic.suffix = Topic to send historical stream data
+* max = Max items on memory (every topic)
 
 ### Launch
 
