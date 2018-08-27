@@ -1,0 +1,12 @@
+{
+  "connection": {
+    "url": "mqtt://localhost:1883"
+  },
+  "topic": {
+    "listen": [
+      "/test/+/topic"
+    ],
+    "suffix": "/historical-stream"
+  },
+  "max": 5
+}
